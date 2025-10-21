@@ -1,0 +1,12 @@
+# Notebook checkpoints/environment
+/.ipynb_checkpoints
+/venv
+
+# Training checkpoints & data
+/trained_v1.pth
+/checkpoints
+/data
+
+# Personal
+*.pdf
+*.txt
