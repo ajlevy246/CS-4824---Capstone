@@ -1,6 +1,6 @@
 # Notebook checkpoints/environment
 /.ipynb_checkpoints
-/venv
+/.venv
 
 # Training checkpoints & data
 /trained_v1.pth
