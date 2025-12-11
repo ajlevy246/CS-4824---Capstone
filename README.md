@@ -4,6 +4,16 @@ Welcome! This is the repository for my CS 4824 - Machine Learning Capstone Proje
 ## Installing Requirements
 Use the provided `requirements.txt` to set up your environment for this project. Note that for the interactive elements, TKinter is required. While most python versions come pre-installed with package, not all do. For best results, run the Jupyter notebooks from a browser, as VSCode's built-in Jupyter server does not support all graphics features used. Since the dataset I used dopwnloads as an archive (`.rar` file), I use the `patoollib` package to extract the data. However, this package relies on a local extractor tool, like 7zip, to run. 
 
+```bash
+pip3 install -r requirements.txt
+```
+
+Since this requirements file includes releases on TestPyPi (listed with --extra-index-url), I strongly recommend installing these requirements into a new python environment:
+
+```bash
+python3 -m venv .venv
+```
+
 ## Training the Model
 The source code for the CNN architecture is available in `src/neuralnet.py`. To generate checkpoints, run the `train_classifier.ipynb` notebook, or load from the uploaded checkpoint file, `model.pth`. This notebook downloads the dataset to the filesystem from Kaggle, as well as contains the testing loop, complete with validation and early-stopping.
 
