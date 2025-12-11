@@ -1,3 +1,4 @@
+"""Custom CNN Architecture for Handwritten Mathematical Expressions."""
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
