@@ -1,0 +1,14 @@
+pandas
+matplotlib
+numpy
+torchvision
+torch
+scikit-learn
+scikit-image
+opencv-python
+Pillow
+kagglehub
+patool
+
+--index-url https://test.pypi.org/simple/
+levycas
