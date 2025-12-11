@@ -1,3 +1,4 @@
+jupyter
 pandas
 matplotlib
 numpy
@@ -10,5 +11,5 @@ Pillow
 kagglehub
 patool
 
---index-url https://test.pypi.org/simple/
+--extra-index-url https://test.pypi.org/simple/
 levycas
